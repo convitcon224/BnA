@@ -1,0 +1,59 @@
+/* ---<Main Fonts Style, change it if you want>--- */
+h1, h6, li, p, label{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-image: url("https://www.texasmonthly.com/wp-content/uploads/2018/01/whatley-2-2000x0-c-default.jpg")
+
+}
+
+#renew-book-code, #return-book-code,
+ #suggest-book-name, #suggest-book-genre, 
+ #suggest-book-author, #suggest-book-desc, 
+ #suggest-book-email, #student-id, #name-field, #phone-num-field{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+
+#page-title{
+    width: 50%;
+    padding: 15px;
+    margin:auto;
+
+    font-size: 40px;
+    text-align:center;
+
+    color: white;
+    border: 3px solid black;
+    background-color:#8ac28f /*dark green*/
+    
+}
+
+.form-renew-book, .form-return-book, .form-suggest-book, 
+.form-application, .form-borrow-book, .welcome-section, .form-application{
+    width: 50%;
+    padding: 15px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right:auto;
+
+    font-size: 20px;
+
+    border: 3px solid black;
+    background-color:#d1e9d0; /* light green*/
+}
+
+.form-buttons{
+    text-align: center;
+    margin-top: 20px;
+}
+
+#button-back, #button-submit, #button-next{
+    margin-right:20px;
+    margin-left:20px;
+    width: 15%;
+    height: 40px;
+    font-size: 20px;
+}

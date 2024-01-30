@@ -1,0 +1,15 @@
+.form-container {
+    padding: 20px;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 30px;
+}
+
+.form-container form label{
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.form-container button[type="submit"]{
+    margin-top: 10px;
+}

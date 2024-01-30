@@ -1,0 +1,27 @@
+
+.side-nav-container {
+    float: left;
+    padding-left: 13rem;
+}
+
+.side-nav-btn-group button {
+background-color: #83c291;
+color: white;
+padding: 15px 5px;
+cursor: pointer;
+width: 240%;
+display: block;
+text-align: left;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 18px;
+}
+
+.side-nav-btn-group button:not(:last-child) {
+border-bottom: none;
+}
+
+.side-nav-btn-group button:hover {
+background-color: #adddb1;
+font-weight: bold;
+color: rgb(111, 99, 99);
+}

@@ -1,0 +1,129 @@
+/* IMPORTANT NOTE:
+    HEX code for lighter green: #cfe9d1
+    HEX code for darker green: #83c291
+    HEX code for content background color: #f2f2f2
+*/
+
+body {
+  font-family: Arial, sans-serif;
+    background-color: #eef0f0;
+  }
+  
+.main{
+  margin-bottom: 70px;
+}
+
+  h1{
+    color: #4b6c52;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: .1px;
+    font-size: 3em;
+    line-height: 1.1;
+  } 
+  
+  h6, li {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+  }
+  
+
+.container-2{
+  margin-left: 70vh;
+  display: block;
+}
+
+  .breadcrumb-container {
+    padding-left: 5rem;
+  }
+
+
+  ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+}
+  
+  ul.breadcrumb {
+    margin-top: 1px;
+    margin-bottom: 10px;
+    padding: 2vh 19vh;
+    list-style: none;
+  }
+  
+  ul.breadcrumb li {
+    display: inline;
+    font-size: 15px;
+  }
+  
+  ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+  }
+  
+  ul.breadcrumb li a {
+    color: #44694d;
+    text-decoration: none;
+  }
+  
+  ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+  }
+
+/* Content */
+.choose-contact-option-container p{
+    font-size: 40px;
+    color: #44694d;
+    font-weight: 700;
+    margin: 30px 0;
+}
+
+.choose-contact-option-container button{
+    background-color: #5f936c;
+    width: 20vw;
+    height: 6.5vh;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.choose-contact-option-container button:hover{
+    background-color: #3e6c4a;
+}
+
+.choose-contact-option-container button a{
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+}
+
+.phone-address-container h1{
+    font-family:'Times New Roman', Times, serif;
+    color: #23482d;
+}
+
+
+.phone-address-container p{
+  font-family:'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: #44694d;
+}
+
+.phone-address-container a{
+    color:#23482d;
+}
+
+
+.social-media-container h1{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #23482d;
+    margin: 20px 0;
+}
+
+
+
+.social-media-icon-container button{
+    border: none;
+}
+

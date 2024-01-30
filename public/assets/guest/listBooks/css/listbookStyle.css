@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body{
+    background-color: #eef0f0;
+    height: 100%;
+}
+
+/* ---<Breadcrumb Style>--- */
+.breadcrumb-container {
+padding-left: 5rem;
+}
+
+ul.breadcrumb {
+margin-top: 1px;
+margin-bottom: 10px;
+padding: 2vh 19vh;
+list-style: none;
+}
+
+ul.breadcrumb li {
+display: inline;
+font-size: 15px;
+}
+
+ul.breadcrumb li+li:before {
+padding: 8px;
+color: black;
+content: "/\00a0";
+}
+
+ul.breadcrumb li a {
+color: #44694d;
+text-decoration: none;
+}
+
+ul.breadcrumb li a:hover {
+color: #01447e;
+text-decoration: underline;
+}
+
+/* .header{
+    height: 30vh;
+    background-color: greenyellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 100px;
+} */
+
+/* .footer{
+    height: 30vh;
+    background-color: greenyellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 100px;
+} */
+
+/* item */
+.list-container{
+    padding: 20px 0 20px 0;
+    background-color: transparent;
+    height: 100%;
+    margin: auto;
+    width: 1250px;
+    align-content: flex-start;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, auto);
+    gap: 1px;
+}
+
+.list-container > .box-book{
+    display: inline-block;
+    text-align: center;
+    margin: 3px 3px 3px 3px;
+    background-color: white;
+    width: 240px;
+    height: 370px;
+    padding: 0 20px 0 10px;
+}
+
+.box-book{
+    cursor: pointer;
+}
+
+.box-book:hover{
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+.box-book p{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.picture-book{
+    text-align: center;
+    margin: 10px 0 10px 0;
+    height: 210px;
+    width: 200px;
+}
+
+.name-book{
+    font-size: 17px;
+    margin-left: 5px;
+    text-align: start;
+}
+
+.rating-book{
+    display: block;
+    margin-top: 5px;
+    margin-left: -5px;
+    background-color: white;
+    height: 35px;
+}
+
+.person-rate{
+    display: inline-block;
+    line-height: 32px;
+    margin-left: -70px;
+    font-size: 21px;
+}
+
+.status-book{
+    display: block;
+    height: 40px;
+    width: 110px;
+    border: solid 1px red;
+    padding: 6px;
+    color: red;
+    margin-left: 5px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.page{
+    padding-bottom: 20px;
+}

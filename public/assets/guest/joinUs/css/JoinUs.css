@@ -1,0 +1,99 @@
+/* IMPORTANT NOTE:
+    HEX code for lighter green: #cfe9d1
+    HEX code for darker green: #83c291
+    HEX code for content background color: #f2f2f2
+*/
+
+body {
+    font-family: Arial, sans-serif;
+      background-color: #eef0f0;
+    }
+
+.main{
+    display: block;
+    margin-bottom: 70px;
+}
+
+.main img{
+    margin-left: 17%;
+    width: 33%;
+}
+
+    /* ---<Header Style>--- */  
+    .breadcrumb-container {
+      padding-left: 5rem;
+    }
+  
+  
+    ul.breadcrumb li+li:before {
+      padding: 8px;
+      color: black;
+      content: "/\00a0";
+  }
+    
+    ul.breadcrumb {
+      margin-top: 1px;
+      margin-bottom: 10px;
+      padding: 2vh 19vh;
+      list-style: none;
+    }
+    
+    ul.breadcrumb li {
+      display: inline;
+      font-size: 15px;
+    }
+    
+    ul.breadcrumb li+li:before {
+      padding: 8px;
+      color: black;
+      content: "/\00a0";
+    }
+    
+    ul.breadcrumb li a {
+      color: #44694d;
+      text-decoration: none;
+    }
+    
+    ul.breadcrumb li a:hover {
+      color: #01447e;
+      text-decoration: underline;
+    }
+  
+
+  
+    .accordion-container {
+      float: left;
+      position: absolute;
+      left: 33%;
+      margin-top: -10px;
+  }
+    
+  
+    .para {
+      max-width: 60%;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #f2f2f2;
+      border-radius: 10px;
+  }
+  
+    #paragraph-join-us {
+      line-height: 1.5;
+      margin-bottom: 20px;
+      font-weight: bold;
+      width: 100%;
+  }
+  
+  
+  .para p{
+      color: #4b6c52;
+      font-weight: 700;
+  }
+  
+  .accordion-container h1 {
+      color: #4b6c52;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      letter-spacing: .1px;
+      font-size: 3em;
+      line-height: 1.1;
+  }
